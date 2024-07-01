@@ -11,12 +11,12 @@ void setup()
 }
 
 void loop(){
-    if(distance_Function(echo, trig)<30)
+    if(distance_Function(echo, trig)<30)    //if comes within 30 cm the lid opens
     {
     myservo.write(90);
     delay (2000) ;
     } 
-    if(distance_Function(echo, trig)<30 && distance_Function(echo, trig)>200)
+    if(distance_Function(echo, trig)<30 && distance_Function(echo, trig)>200) // cuz sonar can sensor up to 200cm
     {
     myservo.write(0);
     }
