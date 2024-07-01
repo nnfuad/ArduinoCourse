@@ -1,0 +1,9 @@
+ROS, which stands for Robot Operating System, isn't actually a traditional operating system like Windows or macOS. It's more accurately described as an **open-source robotics middleware suite**.
+
+Here's a breakdown of what ROS offers:
+
+* **Set of software tools and libraries:**  These tools help developers build robot applications. They provide common functionalities like device control, sensor data handling, communication between different parts of the robot software (nodes), and more.  
+* **Open source:** Being open source allows for collaboration and contribution from a global developer community. This fosters faster development and wider adoption of the platform.
+* **Modular design:** ROS uses a modular architecture where the robot software is divided into independent nodes. These nodes communicate with each other using messages, making the development process more flexible and scalable.
+
+Think of ROS as a Lego set for building robot software. It provides the essential building blocks that developers can use to create complex robotic functionalities. 
